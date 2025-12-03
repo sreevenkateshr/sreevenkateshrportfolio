@@ -41,7 +41,7 @@ const ProjectsSection = () => {
     const projects = [
         {
             id: 1,
-            title: "Studio.in",
+            title: "Paperboat Photography",
             subtitle: "Photography Studio Website",
             description: "Professional photography studio website with portfolio gallery, booking system, and client management features.",
             tags: ["React", "Tailwind", "Framer Motion", "Node.js"],
@@ -53,7 +53,7 @@ const ProjectsSection = () => {
         },
         {
             id: 2,
-            title: "SnappyTimes Photography",
+            title: "Paperboat Photography",
             subtitle: "Event Photography Platform",
             description: "Modern photography website featuring dynamic galleries, online booking, and real-time availability checking.",
             tags: ["React", "Node.js", "MongoDB", "Express"],
