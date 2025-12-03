@@ -61,7 +61,7 @@ const ProjectsSection = () => {
             featured: true,
             liveUrl: "#",
             githubUrl: "#",
-            image: "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=800&h=600&fit=crop",
+            image: "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=800&h=600&fit=crop",
         },
         {
             id: 3,
@@ -73,7 +73,7 @@ const ProjectsSection = () => {
             featured: false,
             liveUrl: "#",
             githubUrl: "#",
-            image: "https://images.unsplash.com/photo-1606016159991-7ea8a0ba5b79?w=800&h=600&fit=crop",
+            image: "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=800&h=600&fit=crop",
         },
     ];
 
