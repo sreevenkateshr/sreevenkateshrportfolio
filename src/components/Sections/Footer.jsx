@@ -22,7 +22,7 @@ const Footer = () => {
         { name: "Skills", id: "skills" },
         { name: "Projects", id: "projects" },
         { name: "Work", id: "work" },
-        { name: "Contact", id: "contact" },
+        { name: "Footer", id: "contact" },
     ];
 
     return (
@@ -174,7 +174,7 @@ const Footer = () => {
                         viewport={{ once: true }}
                         className={`text-sm ${isDarkMode ? "text-gray-500" : "text-gray-500"}`}
                     >
-                        © 2025 All rights reserved
+                        © 2026 All rights reserved
                     </motion.p>
                 </div>
             </div>
