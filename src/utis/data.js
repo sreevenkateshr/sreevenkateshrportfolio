@@ -1,4 +1,4 @@
-import { Code2, Server, Smartphone, Database } from "lucide-react";
+import { Code2, Server, Smartphone, Database, TrendingUp, CloudCog } from "lucide-react";
 
 export const SKILLS_CATEGORY = [
     {
@@ -26,8 +26,8 @@ export const SKILLS_CATEGORY = [
         ],
     },
     {
-        title: "Mobile",
-        icon: Smartphone,
+        title: "DevOps & Cloud",
+        icon: CloudCog,
         description: "Deploying and scaling applications",
         skills: [
             { name: "Docker", level: 82, color: "bg-blue-600" },
@@ -49,25 +49,48 @@ export const SKILLS_CATEGORY = [
             { name: "Prisma", level: 78, color: "bg-indigo-600" },
         ],
     },
+    {
+        title: "Digital Marketing",
+        icon: TrendingUp,
+        description: "Managing and optimizing data storage",
+        skills: [
+            { name: "GSC", level: 95, color: "bg-green-600" },
+            { name: "Ubbersuggest", level: 92, color: "bg-blue-700" },
+            { name: "Google Analytics", level: 80, color: "bg-red-600" },
+            { name: "Meta Ads", level: 90 , color: "bg-yellow-600" },
+            { name: "Google ads", level: 95, color: "bg-indigo-600" },
+        ],
+    },
+    // {
+    //     title: "Database",
+    //     icon: Database,
+    //     description: "Managing and optimizing data storage",
+    //     skills: [
+    //         { name: "MongoDB", level: 88, color: "bg-green-600" },
+    //         { name: "PostgreSQL", level: 85, color: "bg-blue-700" },
+    //         { name: "Redis", level: 80, color: "bg-red-600" },
+    //         { name: "Firebase", level: 82, color: "bg-yellow-600" },
+    //         { name: "Prisma", level: 78, color: "bg-indigo-600" },
+    //     ],
+    // },
 ];
 
 export const TECH_STACK = [
-    "JavaScript",
     "HTML5",
     "CSS3",
-    "Sass",
-    "Webpack",
+    "JavaScript",
+    "Google Analytics",
+    "Ubbersuggest",
+    "Ahrefs",
+    "GSC",
     "Vite",
-    "Jest",
-    "Cypress",
     "Figma",
     "Adobe XD",
     "Notion",
-    "Slack",
 ];
 
 export const STATS = [
-    { number: "25+", label: "Projects Completed" },
+    { number: "15+", label: "Projects Completed" },
     { number: "2+", label: "Years Experience" },
     { number: "10+", label: "Technologies" },
     { number: "100%", label: "Client Satisfaction" },

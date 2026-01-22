@@ -2,7 +2,8 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { Mail } from "lucide-react";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { useTheme } from "../../Context/ThemeContext";
-import PROFILE_PIC from "../../assets/images/dp.jpg";
+import hero3 from "../../assets/images/hero3.jpeg";
+
 
 const HeroSection = () => {
   const { isDarkMode } = useTheme();
@@ -266,7 +267,7 @@ const HeroSection = () => {
                   } shadow-2xl`}
                 >
                   <img
-                    src={PROFILE_PIC}
+                    src={hero3}
                     alt="Profile"
                     className="w-full h-full object-cover"
                   />
